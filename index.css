@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  }
+
+#product-container {
+width: 100vw;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 16px;
+border: 2px solid red;
+padding: 20px;
+}
+
+.productCard{
+width:90%;
+height: 300px;
+border-radius: 8px;
+text-align: center;
+margin: auto;
+padding: 10px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.productImage{
+width: 200px;
+height: 200px;
+object-fit: contain;
+}
+
+.productCard h3 {
+margin: 6px;
+}
